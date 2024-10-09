@@ -5,9 +5,6 @@ import Zeus from "./Assets/Zeus.png";
 import Eros from "./Assets/Eros.png"
 
 
-
-
-
 export const Charactors = [
     {
         id:1,

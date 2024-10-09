@@ -26,12 +26,9 @@ function DrawerAppBar(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
 const navigate = useNavigate()
 
-
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
-
-
 
 
   const drawer = (
@@ -48,15 +45,11 @@ const navigate = useNavigate()
             </ListItemButton>
           </ListItem>
 
-          
-
           <ListItem  disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText  ><NavLink to="/supernaturals" className="nav-item">SuperNaturals</NavLink></ListItemText>
             </ListItemButton>
           </ListItem>
-
-
         
       </List>
    
@@ -89,14 +82,11 @@ const navigate = useNavigate()
             REC
           </Typography>
 
-          
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
               <Button><NavLink to="/charactors" className="nav-item">Charactors</NavLink></Button>
 
               <Button><NavLink to="/supernaturals" className="nav-item">Supernaturals</NavLink></Button>
 
-
- 		
           </Box>
         </Toolbar>
       </AppBar>
@@ -107,7 +97,7 @@ const navigate = useNavigate()
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true,
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },

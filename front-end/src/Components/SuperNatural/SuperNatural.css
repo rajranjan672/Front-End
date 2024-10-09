@@ -5,12 +5,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-direction: column; /* Stack arrows and content vertically */
+    flex-direction: column; 
 }
 
 .carousel-content {
     margin: 0 20px;
-    position: relative; /* To position dots below this */
+    position: relative; 
 }
 
 .carousel img {
@@ -27,8 +27,8 @@
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-radius: 50%; /* Rounded background */
-    z-index: 1; /* Ensure arrows are above the image */
+    border-radius: 50%; 
+    z-index: 1; 
 }
 
 .left {
@@ -42,24 +42,24 @@
 .dots {
     display: flex;
     justify-content: center;
-    margin-top: 10px; /* Space between image and dots */
-    background-color: rgba(68, 123, 50, 0.8) !important; /* Background color for dots */
-    padding: 10px 0; /* Padding around the dots */
-    border-radius: 5px; /* Rounded corners for the background */
+    margin-top: 10px; 
+    background-color: rgba(68, 123, 50, 0.8) !important; 
+    padding: 10px 0; 
+    border-radius: 5px; 
 }
 
 .dot {
     height: 10px;
     width: 10px;
     margin: 0 5px;
-    background-color: lightgray; /* Default color */
+    background-color: lightgray; 
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
 }
 
 .dot.active {
-    background-color: rgb(240, 28, 130); /* Active dot color */
+    background-color: rgb(240, 28, 130); 
 }
 
 h2 {

@@ -1,9 +1,9 @@
-// import Characters from "./Components/Characters/Characters";
-// import Hero from "./Components/Hero/Hero";
 import NavBar from "./Components/NavBar/NavBar";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
+
+// lazy loading
 const SuperNatural = React.lazy(() => import('./Components/SuperNatural/SuperNatural'))
 const Charactors = React.lazy(() => import('./Components/Characters/Characters'))
 
@@ -26,7 +26,6 @@ function App() {
         </React.Suspense>}  />
       </Routes>
       <hr />
-      {/* <Characters /> */}
     </div>
   );
 }
