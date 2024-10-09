@@ -1,0 +1,27 @@
+.hero {
+    background-image: url("../Assets/lore--750x375.png.webp");
+    height: 250px !important;
+    background-position: "center";
+    background-repeat: "no-repeat";
+    background-size: "cover",
+
+
+}
+
+.hero:hover {
+    cursor: pointer;
+    transform: scale(1.006);
+}
+
+.hero:hover h1 {
+    font-size: 45px;
+    color: rgb(153, 14, 228);
+    
+}
+
+.hero:hover span {
+    font-size: 45px;
+    color: rgb(228, 14, 46);
+    
+}
+

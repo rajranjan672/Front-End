@@ -1,0 +1,12 @@
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.007);
+    background-color: #827c70;
+    border: 2px solid rgb(40, 147, 255);
+}
+.card:hover h4 {
+    color: aqua;
+}
