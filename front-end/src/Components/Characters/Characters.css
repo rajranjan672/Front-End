@@ -4,9 +4,13 @@
 
 .card:hover {
     transform: scale(1.007);
-    background-color: #827c70;
+    background-color: #3c3934;
     border: 2px solid rgb(40, 147, 255);
 }
 .card:hover h4 {
+    color: aqua;
+}
+
+.card:hover button {
     color: aqua;
 }
